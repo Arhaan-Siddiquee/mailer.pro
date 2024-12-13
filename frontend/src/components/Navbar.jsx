@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className='flex items-center justify-between mx-3 h-16'>
             <div className='flex items-center gap-10'>
                 <div className='flex items-center gap-2'>
-                    <div className='p-3 hover:bg-gray-200 rounded-full cursor-pointer'>
+                    <div className='p-3 hover:bg-black rounded-full cursor-pointer'>
                         <RxHamburgerMenu />
                     </div>
                     <img className='w-8' src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" alt="logo" />
@@ -60,13 +60,13 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <div className='p-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                            <div className='p-2 rounded-full hover:bg-black cursor-pointer'>
                                 <CiCircleQuestion size={'24px'} />
                             </div>
-                            <div className='p-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                            <div className='p-2 rounded-full hover:bg-black cursor-pointer'>
                                 <IoIosSettings size={'24px'} />
                             </div>
-                            <div className='p-2 rounded-full hover:bg-gray-200 cursor-pointer'>
+                            <div className='p-2 rounded-full hover:bg-black cursor-pointer'>
                                 <TbGridDots size={'24px'} />
                             </div>
                             <span onClick={logoutHandler} className='underline cursor-pointer'>Logout</span>
